@@ -1,0 +1,111 @@
+/* Sobre */
+
+/* Title */
+.title {
+  background-image: url(imagens/backgrounds/back7.jpg);
+  background-size: cover;
+  background-position: left;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+}
+
+.title h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.title .btn {
+  background-color: #fff;
+  border-radius: 4px;
+  color: #000;
+  padding: 20px 50px;
+  text-transform: uppercase;
+}
+
+/* THE4DEV */
+.the3dev {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.the3dev h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #c3c63b;
+}
+
+.the3dev p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  color: #fff;
+  text-align: center;
+}
+
+.the3dev hr {
+  width: 200px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 70px;
+  border: none;
+}
+
+.the3dev i {
+  color: #c3c63b;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.the3dev .grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.the3dev .grid li {
+  padding: 0 50px;
+  text-align: center;
+}
+
+.the3dev .grid li img {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.the3dev .grid li h4 {
+  font-size: 1.5rem;
+  color: #c3c63b;
+  margin-bottom: 30px;
+}
+
+.the3dev .grid li p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.the3dev .grid li p span {
+  color: #1ca2db;
+  cursor: pointer;
+}
+
+.the3dev .grid li p span:hover {
+  color: #04048f;
+}
+
+@media(min-width: 900px){
+  .the3dev .grid{flex-direction: row;}
+}

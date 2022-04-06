@@ -1,0 +1,109 @@
+/* Estilo padrão para as Noticias */
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('imagens/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+
+.noticia {
+  display: flex;
+  justify-content: center;
+  /*background-color: yellow;*/
+  min-height: 100vh;
+}
+
+.noticia .corpo {
+  width: 90%;
+  background-color: #fff;
+  text-align: center;
+  border: 3px solid #000;
+}
+
+.noticia .corpo h1 {
+  padding-top: 200px;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.noticia .corpo h3 {
+  max-width: 800px;
+  margin: 30px 0;
+  font-size: 30px;
+}
+
+.noticia .corpo p {
+  max-width: 800px;
+  margin-bottom: 25px;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.noticia .corpo .conteodo {
+  width: 80%;
+  float: left;
+  /* background-color: #f0f; */
+}
+
+.noticia .corpo .conteodo img {
+  width: 90%;
+  height: 500px;
+}
+
+.noticia .corpo .conteodo .texto {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f0f; */
+}
+
+.noticia .corpo .anuncio {
+  padding-top: 150px;
+  width: 20%;
+  float: right;
+  border: 3px solid #000;
+  /* background-color: #ff0;*/
+}
+
+.noticia .corpo .anuncio img {
+  width: 100%;
+  object-fit: cover;
+  padding: 0 0 15px;
+}
+@media(min-width:900px){
+  .noticia .corpo h1 {
+    padding-top: 125px;
+    font-size: 3.2rem;
+  }
+}
+
+.topo{
+  position: fixed;
+  top: 85%;
+  left: 78%;
+  background-color: transparent;
+}
+
+.topo img{
+  width: 75px;
+  cursor: pointer;
+}
+
+@media(min-width:650px){
+  .topo{
+    left: 82%;
+  }
+  .topo img{
+    width: 90px;
+  }
+}

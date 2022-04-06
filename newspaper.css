@@ -1,0 +1,156 @@
+/* Newpaper */
+
+/* Title */
+.title {
+  background-image: url(imagens/backgrounds/back1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+}
+
+.title h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.title .btn {
+  background-color: #fff;
+  border-radius: 4px;
+  color: #000;
+  padding: 20px 50px;
+  text-transform: uppercase;
+}
+
+
+/* Newspaper */
+.newspaper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+  background-color: green;
+}
+
+.newspaper h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #c3c63b;
+}
+
+.newspaper p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  color: #fff;
+  text-align: center;
+}
+
+.newspaper hr {
+  width: 200px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 70px;
+  border: none;
+}
+
+.newspaper i {
+  color: #c3c63b;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.newspaper .noticias {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: "→";
+  color: #fff;
+}
+
+.newspaper .noticias li {
+  padding: 10px;
+  margin-left: 10%;
+  border-radius: 4px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.noticias a {
+  color: #fff;
+}
+
+.noticias a:hover {
+  color: #c3c63b;
+}
+
+
+/* Newletter */
+.newletter {
+  background-color: #252525;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.newletter h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #c3c63b;
+}
+
+.newletter p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  color: #fff;
+  text-align: center;
+}
+
+.newletter hr {
+  width: 200px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 70px;
+  border: none;
+}
+
+.newletter form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 800px;
+}
+
+.newletter input {
+  padding: 15px;
+  border: 1px solid #c3c63b;
+  border-radius: 4px;
+  margin-right: 15px;
+  flex: 1;
+}
+
+.newletter button {
+  padding: 15px;
+  background-color: #c3c63b;
+  color: #191c03;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media(max-width:700px){
+  .newletter input{flex-basis: 100%; margin-bottom:15px;}
+}
