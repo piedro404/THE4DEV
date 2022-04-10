@@ -1,6 +1,8 @@
 # THE4DEV
 Simple news-themed site for devs. I use HTML + CSS with responsiveness.
 
+https://piedrocraft.github.io/THE4DEV/
+
 # Message for you
 Hello, I hope you have a good learning experience, that you can clear your doubts or implement your projects. Feel free to make suggestions to improve the script.
 
